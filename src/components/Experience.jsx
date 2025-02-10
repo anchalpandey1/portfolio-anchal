@@ -4,69 +4,69 @@ import css from '../assets/css.jpg';
 import tailwind from '../assets/tailwind.png';
 import js from '../assets/js.jpg';
 import react from '../assets/react.jpg';
-import rtk from '../assets/rtk.jpeg';
-import python from '../assets/python.jpg';
+import express from '../assets/express.png';
+import mongo from '../assets/mongo.png';
 import cpp from '../assets/cpp.jpg';
 import bootstrap from '../assets/bootstrap.jpg';
 import sql from '../assets/sql.avif';
-import django from '../assets/django.png';
+import node from '../assets/node.png';
 
 const Experience = () => {
   const tech=[
     {
       id:1,
-      src:html,
-      title:'HTML',
-      style:'shadow-orange-500'
-    },
-    {
-      id:2,
-      src:css,
-      title:'CSS',
-      style:'shadow-blue-500'
-    },
-    {
-      id:3,
-      src:js,
-      title:'JavaScript',
+      src:mongo ,
+      title:'MongoDB',
       style:'shadow-yellow-500'
     },
     {
-      id:4,
-      src:tailwind,
-      title:'Tailwind Css',
-      style:'shadow-sky-600'
-    },
+      id:2,
+      src:express,
+      title:'Express',
+      style:'shadow-purple-900'
+    },   
     {
-      id:5,
+      id:3,
       src:react,
       title:'ReactJs',
       style:'shadow-blue-600'
     },
     {
-      id:6,
-      src:rtk,
-      title:'Redux Tool Kit',
-      style:'shadow-purple-900'
+      id:4,
+      src:node,
+      title:'Node',
+      style:'shadow-teal-900'
     },
     {
-      id:7,
-      src:python ,
-      title:'Python',
+      id:5,
+      src:js,
+      title:'JavaScript',
       style:'shadow-yellow-500'
     },
     {
+      id:6,
+      src:tailwind,
+      title:'Tailwind Css',
+      style:'shadow-sky-600'
+    },
+    {
+      id:7,
+      src:sql,
+      title:'SQL',
+      style:'shadow-gray-500'
+    },
+    {
       id:8,
-      src:cpp,
-      title:'C++',
-      style:'shadow-blue-800'
+      src:html,
+      title:'HTML',
+      style:'shadow-orange-500'
     },
     {
       id:9,
-      src:django,
-      title:'Django',
-      style:'shadow-teal-900'
-    },
+      src:css,
+      title:'CSS',
+      style:'shadow-blue-500'
+    }, 
     {
       id:10,
       src:bootstrap,
@@ -75,10 +75,11 @@ const Experience = () => {
     },
     {
       id:11,
-      src:sql,
-      title:'SQL',
-      style:'shadow-gray-500'
+      src:cpp,
+      title:'C++',
+      style:'shadow-blue-800'
     },
+    
   ]
 
 

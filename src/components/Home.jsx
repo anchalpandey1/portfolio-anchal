@@ -12,10 +12,12 @@ const Home = () => {
      <h1 className='text-6xl sm;text-8xl font-bold text-white'>Hey there!</h1>
      <h2 className='text-4xl sm;text-6xl font-bold text-white'>I'm Full Stack Developer</h2>
      <p className='text-grey-500 py-4 mx-w-md '>
-      I'm a pre final year computer science student
-       who loves to explore new technologies and write about them.
-      Currently I love to work on Web Application using Technology like<br></br>
-      <b className='font-bold'>ReactJs , Tailwindcss , Redux ,RTQuery  </b>
+     I'm a <b>Software Developer</b> with expertise in <b>MERN stack</b> technologies,
+      including MongoDB , Express.js , React.js , Node.js , JavaScript , TailwindCss , Html5 , SQL , C++.<br/>
+       I have hands-on experience in building scalable web applications, developing robust APIs, 
+       and optimizing system performance.
+     <br></br>
+      
       </p>
       <div>
       <button className=' group text-white w-fit px-6 py-3 my-2 flex item-center rounded-md bg-gradient-to-4 bg-gradient-to-r from-cyan-500 to-blue-500
